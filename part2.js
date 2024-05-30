@@ -13,6 +13,18 @@ console.log(sortedarray);
 
 console.log(sortagelessthan50(arr1));
 
+let mappedArray = maparray(arr1); 
+
+console.log("Mapped array with changed keys and incremented age :", mappedArray); 
+
+let sum = sumofages(arr1); 
+
+console.log("Sum of ages is :", sum); 
+
+let average = averageage(arr1); 
+
+console.log("Average age is :", average);
+
 function sortbyage(arr)
 {
     return arr.sort((a,b) => a.age - b.age );
@@ -45,14 +57,3 @@ function averageage(arr)
 }
 
 
-let mappedArray = maparray(arr1); 
-
-console.log("Mapped array with changed keys and incremented age :", mappedArray); 
-
-let sum = sumofages(arr1); 
-
-console.log("Sum of ages is :", sum); 
-
-let average = averageage(arr1); 
-
-console.log("Average age is :", average);
